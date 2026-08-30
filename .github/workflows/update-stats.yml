@@ -36,12 +36,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Streak Stats Card
-        uses: DenverCoder1/github-readme-streak-stats@v1
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          user: omarsawaf1
-          theme: dracula
-          hide_border: "false"
-          output: profile/streak.svg
+          options: user=omarsawaf1&theme=dracula&hide_border=false
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push Updated Stats
         run: |
