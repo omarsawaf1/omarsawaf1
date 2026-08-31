@@ -2,8 +2,8 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    # Runs automatically at 00:00 UTC every day
-    - cron: "0 0 * * *"
+    # Runs twice daily at off-peak hours (03:15 and 15:15 UTC) to bypass GitHub midnight delays
+    - cron: "15 3,15 * * *"
   workflow_dispatch: # Allows manual trigger anytime from Actions tab
 
 permissions:

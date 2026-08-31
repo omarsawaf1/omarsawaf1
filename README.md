@@ -12,7 +12,7 @@
 
 ---
 
-### 🛡️ $\color{#00F0FF}{\textsf{Cybersecurity and Digital Forensics}}$
+### 🛡️ **$\color{#00F0FF}{\textsf{Cybersecurity and Digital Forensics}}$**
 
 - 🕵️‍♂️ **$\color{#00FF9F}{\textsf{SOC Analyst | DFIR:}}$** Passionate about Security Operations, Incident Response, Threat Hunting, and Deep Digital Forensics.
 - 🔬 **$\color{#00F0FF}{\textsf{Current Project:}}$** Developing an **All-in-One Memory Forensics Suite** powered by **Volatility 3** to streamline memory dump analysis, kernel artifact extraction, process injection detection, and malware investigation.
